@@ -1,0 +1,14 @@
+[project]
+name = "agent-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-community>=0.3.7",
+    "langchain>=0.3.7",
+    "langgraph>=0.2.53",
+    "python-dotenv>=1.0.1",
+    "langchain-openai>=0.2.9",
+    "pydantic==2.9.2",
+]
